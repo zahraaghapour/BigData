@@ -1,0 +1,139 @@
+2020-02-11 17:41:32,792  WARN [ModalContext] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:41:32,802  WARN [ModalContext] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:41:33,870  WARN [Worker-5] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:41:33,870  WARN [Worker-5] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:41:48,278  WARN [main] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:41:48,293  WARN [main] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:42:12,323  WARN [Worker-6] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:42:12,323  WARN [Worker-6] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:42:12,700  WARN [Java indexing] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:42:12,700  WARN [Java indexing] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:42:18,617  WARN [Worker-4] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:42:18,617  WARN [Worker-4] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:42:21,540 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - An error occurred while trying to create a file.
+org.eclipse.core.internal.resources.ResourceException: Resource '/SparkClustering/src/Clustering.scala' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:314)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:301)
+	at org.eclipse.core.internal.resources.File.create(File.java:107)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.scalaide.util.eclipse.FileUtils$.$anonfun$createFile$1(FileUtils.scala:112)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.util.Try$.apply(Try.scala:209)
+	at org.scalaide.util.eclipse.FileUtils$.createFile(FileUtils.scala:110)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.$anonfun$okPressed$13(NewFileWizard.scala:284)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.$anonfun$okPressed$13$adapted(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.okPressed$(NewFileWizard.scala:230)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:125)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:99)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:144)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:250)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:199)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:308)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:334)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:434)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.openFileInSrcDir$1(NewFileWizard.scala:367)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.openEditor(NewFileWizard.scala:375)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.$anonfun$okPressed$13(NewFileWizard.scala:287)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.$anonfun$okPressed$13$adapted(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizard.okPressed$(NewFileWizard.scala:230)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:778)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:417)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:81)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:133)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:397)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+2020-02-11 17:42:33,916  WARN [Worker-2] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:42:33,932  WARN [Worker-2] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:43:15,456  WARN [Worker-7] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:43:15,456  WARN [Worker-7] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:43:23,337  WARN [main] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:43:23,337  WARN [main] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:43:26,980  WARN [main] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:43:26,980  WARN [main] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:43:27,111  WARN [Worker-1] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:43:27,111  WARN [Worker-1] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:46:20,076  WARN [Worker-2] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:46:20,076  WARN [Worker-2] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:47:21,352  WARN [Worker-9] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:47:21,352  WARN [Worker-9] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:47:21,606  WARN [Worker-6] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:47:21,606  WARN [Worker-6] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:47:22,295  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:47:22,295  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:51:08,181  WARN [Worker-9] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:51:08,181  WARN [Worker-9] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:52:04,735  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2020-02-11 17:53:03,224 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-02-11 17:53:03,224 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-02-11 17:53:32,780 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-02-11 17:53:32,780 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-02-11 17:53:32,780 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-02-11 17:54:23,834  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2020-02-11 17:54:57,543 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-02-11 17:54:57,543 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-02-11 17:54:57,543 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2020-02-11 17:57:07,716  WARN [Worker-9] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:57:07,716  WARN [Worker-9] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:57:29,747  WARN [Worker-0] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:57:29,747  WARN [Worker-0] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:57:37,791  WARN [Worker-6] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:57:37,791  WARN [Worker-6] - ScalaProject - Project SparkClustering runs on platform default installation.
+2020-02-11 17:59:33,282  WARN [Worker-9] - ScalaProject - Project SparkClustering has platform default sourceLevel.
+2020-02-11 17:59:33,282  WARN [Worker-9] - ScalaProject - Project SparkClustering runs on platform default installation.
