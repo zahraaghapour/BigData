@@ -8,7 +8,7 @@
 
     HW1 :
     HW2 :
-    HW3 : Spark GraphX (US AireLines Planes)
+    HW3 : Spark GraphX Library (US Flights Informations)
    
 
 # HomeWork 4 :
