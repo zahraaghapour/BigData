@@ -6,8 +6,8 @@
 #### You can see related questions pdf in every homework.
 #### I Used Eclipse to Run Programs. To this aim open a new project and Import Files From Folders you downloaded from this repo.
 
-    HW1 :
-    HW2 :
+    HW1 : WordCount and Clustering
+    HW2 : RandomForest In Spark (KDDCUP999 Dataset)  and  Decision Tree (MNIST Dataset)
     HW3 : Spark GraphX Library (US Flights Informations)
    
 
