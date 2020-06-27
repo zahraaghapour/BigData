@@ -3,8 +3,8 @@
 # HomeWork 1 ,2, 3 :
 
 #### This homeworks are written by Scala language.
-#### You can see related questions pdf in every homework.
-#### I Used Eclipse to Run Programs. To this aim and run with Eclipse, open a new project and Import Files From Folders you downloaded from this repo.
+#### You can see related pdf of questions in every homework.
+#### I used Eclipse to run programs. To this aim and run with Eclipse, open a new project and Import Files From Folders you downloaded from this repo.
 
     HW1 : WordCount and Clustering
     HW2 : RandomForest In Spark (KDDCUP999 Dataset)  and  Decision Tree (MNIST Dataset)
@@ -12,13 +12,13 @@
    
 
 # HomeWork 4 :
-#### ( assingment3 of Standford University cs231)
+#### ( assingment3 of Stanford University cs231)
 
     Q1: Image Captioning with Vanilla RNNs.
     Q2: Image Captioning with LSTMs. 
     Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images. (pytorch)
     Q4: Style Transfer. (pytorch)
-    Q5: Generative Adversarial Networks. (pytorch)
+    Q5: Generative Adversarial Networks(GAN). (pytorch)
 
 #### You can do Questions 3, 4, and 5 in TensorFlow or PyTorch. 
 
