@@ -2,9 +2,9 @@
 
 # HomeWork 1 ,2, 3 :
 
-#### This homeworks are written by Scala language.
+#### These homeworks are written by Scala language.
 #### You can see related pdf of questions in every homework.
-#### I used Eclipse to run programs. To this aim and run with Eclipse, open a new project and Import Files From Folders you downloaded from this repo.
+#### I used Eclipse to run programs. To this aim and running with Eclipse, open a new project and Import Files From Folders you downloaded from this repo.
 
     HW1 : WordCount and Clustering
     HW2 : RandomForest In Spark (KDDCUP999 Dataset)  and  Decision Tree (MNIST Dataset)
